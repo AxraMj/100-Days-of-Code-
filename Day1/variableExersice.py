@@ -3,15 +3,14 @@
 # Do not change the code on lines 1-4 and 15-18. Your program should work for different inputs, 
 # e.g. any value of a and b.
 
-a=5
-b=3
-print(a)
-print(b)
+a=input("a:")
+b=input("b:")
+
 print("After swap")
 
 temp=a
 a=b
 b=temp
 
-print(a)
-print(b)
+print("a= " +a)
+print("b= " +b)

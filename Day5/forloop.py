@@ -10,16 +10,23 @@
 #1146 ÷ 7 = 163.71428571428572
 #Average height rounded to the nearest whole number = 164
 
+print("Avg height of students")
+height_student=input("Height of students: ").split()
+for n in range(0,len(height_student)):
+    height_student[n]=int(height_student[n])
+print(height_student)
 
-student_heights = [180, 124, 165, 173, 189, 169, 146]
-avg=sum(student_heights)/len(student_heights)
-print(round(avg))
-
-#using for loop
 sum=0
-for height in student_heights:
+for height in height_student:
     sum+=height
-avg=sum/len(student_heights)
-print(round(avg))
+print(f"Sum of heights is {sum}")
+
+length=0
+for student in height_student:
+    length+=1
+print(f"Number of students is {length}")
+
+avg_height=round(sum/length)
+print(f"Average height of students is {avg_height}")
 
     

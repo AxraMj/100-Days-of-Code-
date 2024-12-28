@@ -1,10 +1,6 @@
 import random
-
 words=["anil","sunil","soman"]
 random_word=random.choice(words)
-
-
-
 display=[]
 for _ in random_word:
     display.append("_") 

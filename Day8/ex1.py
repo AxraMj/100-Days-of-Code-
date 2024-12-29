@@ -14,11 +14,11 @@
 #important:noteice the name of the function and parameter must match those on line 13 for the code to work
 
 
-height=int(input("Enter the height:"))
-width=int(input("Enter the width:"))
-coverage=5
 
-def num_paint(height,width,coverage):
+def num_paint():
+    height=int(input("Enter the height:"))
+    width=int(input("Enter the width:"))
+    coverage=5
     result=(height*width)%coverage
     print(f"you need {round(result)} cans of paint ")
 

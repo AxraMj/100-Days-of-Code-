@@ -21,7 +21,7 @@ shift = int(input("Type the shift number:\n"))
 
 #Todo-3: Call the encrypt function and pass in the user inputs. You should be able to test the co
 def encrypt(plain_text,amount_shift):
-    Caesar_Cipher=""
+    cipher_text=""
     for letter in plain_text:
     #for h in hello
         possition=alphabet.index(letter)
@@ -31,8 +31,8 @@ def encrypt(plain_text,amount_shift):
         #new_possition=7+3=10
         new_letter=alphabet[new_possition]
         #new_letter=k
-        Caesar_Cipher+=new_letter
-    print(Caesar_Cipher)
+        cipher_text+=new_letter
+    print(f"The encoded text is {cipher_text}")
 
 
 encrypt(plain_text=text,amount_shift=shift)

@@ -6,12 +6,19 @@ student_score={
     "Neville":62
 }
 
+grade_student={}
+
 for i in student_score:
     if student_score[i]>90:
-        print(f"Otstanding performance {i}")
+        grade_student[i]="Excellent"
     elif student_score[i]>80:
-        print(f"Exceeed expectation {i}")
+        grade_student[i]="Exceeed expectation"
     elif student_score[i]>70:
-        print(f"Acceptable {i}")
+        grade_student[i]="Acceptable"
     elif student_score[i]<70:
-        print(f"Fail {i}")
+        grade_student[i]="Fail"
+
+
+for key in grade_student:
+    print(key +":"+grade_student[key])
+

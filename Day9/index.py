@@ -21,3 +21,8 @@ print(empty_dictionary)
 #wipe/delete and existing directory
 programing_definitions={}
 print(programing_definitions)
+print()
+
+#editing an item in dectionary
+empty_dictionary["name"]="Avinash"
+print(empty_dictionary)

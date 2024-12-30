@@ -9,7 +9,7 @@ print()
 
 #To add new item into the dictionary
 programing_definitions["Loop"]="Repete exection of code"
-print(programing_definitions)
+#print(programing_definitions)
 print()
 
 #empty dictionry
@@ -17,3 +17,7 @@ empty_dictionary={}
 #to add
 empty_dictionary["name"]="Akshara"
 print(empty_dictionary)
+
+#wipe/delete and existing directory
+programing_definitions={}
+print(programing_definitions)

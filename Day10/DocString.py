@@ -1,6 +1,7 @@
 #Check leap year and say  number of days in the month
 
 def is_leap_year(year):
+    """To check leap year or not""" #docstring:to check
     if year%4==0:
         if year%100==0:
             if year%400==0:
@@ -19,3 +20,5 @@ year=int(input("Enter Year: "))
 month=int(input("Enter the month:"))
 output=month_days(year,month)
 print(output)
+
+

@@ -29,7 +29,7 @@ while start:
             num1=output
             num2=int(input("What is the second number:"))
             output=calculation(num1,num2)
-            print(output)
+            print(f"{num1} {selected_operator} {num2} = {output}")
         else:
             should_continue=False
             clear()

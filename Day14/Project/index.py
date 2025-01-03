@@ -24,7 +24,7 @@ game_should_continue=True
 accounts_B=random.choice(datas)
 
 while game_should_continue:
-    
+    clear()
     accounts_A=accounts_B
     accounts_B=random.choice(datas)
 

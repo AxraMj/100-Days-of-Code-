@@ -1,8 +1,8 @@
 def fibnocci(n):
+    assert n>=0 and int(n)==n,'Finocci cannot be neagtive or non integer'
     if n in [0,1]:
         return n
-    elif n!=int(n) or n<0:
-        return "Invalid case"
+
     else:
         return fibnocci(n-1)+fibnocci(n-2)
 

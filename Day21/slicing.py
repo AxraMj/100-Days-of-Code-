@@ -8,4 +8,4 @@ print(list[::2])
 print(list[5:10])
 print(list[::-1])
 
-#slicing
+#slicing-Slicing is the extraction of a part of a string, list, or tuple.

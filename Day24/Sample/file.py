@@ -6,3 +6,7 @@ with open("C:/Users/HP/100-Days-of-Code-/Day24/my_file.txt",mode="w") as file:
 
 with open("C:/Users/HP/100-Days-of-Code-/Day24/my_file.txt",mode="a") as file:
     file.write("\nadd this also")
+
+#to create a new file
+with open("C:/Users/HP/100-Days-of-Code-/Day24/my_file2.txt",mode="w") as file:
+    file.write("New text to write")

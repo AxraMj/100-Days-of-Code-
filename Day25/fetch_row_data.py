@@ -15,7 +15,13 @@ max_temp=data.temp.max()
 fetch_max_temp=data[data.temp == max_temp]
 print(fetch_max_temp)
 #writing the above code in one line is:
-print(data[data.temp == data.temp.max()])
+# print(data[data.temp == data.temp.max()])
 #output 
 # day  temp condition
 # 6  Sunday    24     Sunny
+
+
+friday=data[data.day=="Friday"]
+print(friday.condition)
+#output 
+# 4    Sunny

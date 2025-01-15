@@ -10,3 +10,6 @@ for n in number:
 
 #syntax
 # new_list=[new_item for item in list]
+
+number = [1,2,3]
+new_list=[n+1 for n in number]

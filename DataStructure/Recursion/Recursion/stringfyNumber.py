@@ -11,12 +11,7 @@ obj = {
 }
 
 def stringify_numbers(d):
-    for key, value in d.items():
-        if isinstance(value, int):
-            d[key] = str(value)
-        elif isinstance(value, dict):
-            stringify_numbers(value)
-    return d
+    return {key: (str(value) if isinstance(value, int) else stringify_numbers(value) if isinstance(value, dict) else value) for key, value in d.items()}
 
-result = stringify_numbers(obj.copy())  # Use obj.copy() to avoid modifying the original object
+result = stringify_numbers(obj)
 print(result)

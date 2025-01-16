@@ -19,3 +19,7 @@ for (key,values) in student_dataframe.items():
 #it allow us to loop through each of the row in dataframe otherthan each of the columns
 for (index,row) in student_dataframe.iterrows():
     print(row)
+    print()
+    print(row.score)
+    if row=="Akshara":
+        print(row.score)

@@ -21,5 +21,3 @@ for (index,row) in student_dataframe.iterrows():
     print(row)
     print()
     print(row.score)
-    if row=="Akshara":
-        print(row.score)

@@ -12,5 +12,5 @@ window.minsize(width=500,height=300)
 my_label=Label(text="Enter your name")
 # my_label.pack(side="left") #only on particular side we can palce text
 # my_label.place(x=100,y=200) #on any x,y axis we can place text
-my_label.grid(column=0,row=0)
+my_label.grid(column=0,row=0) #at any row and column we can palce text
 window.mainloop()

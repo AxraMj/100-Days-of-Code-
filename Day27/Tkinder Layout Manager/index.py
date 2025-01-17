@@ -3,6 +3,7 @@ from tkinter import *
 window = Tk()
 window.title("My first TRinder Program")
 window.minsize(width=500,height=300)
+window.config(padx=20,pady=20)
 
 my_label=Label(text="Label")
 my_label.grid(column=0,row=0)

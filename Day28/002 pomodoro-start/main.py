@@ -37,6 +37,10 @@ canvas= Canvas(width=200,height=224,bg=YELLOW,highlightthickness=0)
 photo_path=PhotoImage(file="E:/100 Days Python/100-Days-of-Code-/Day28/002 pomodoro-start/tomato.png")
 canvas.create_image(100,112,image=photo_path)
 
+#check mark
+check_mark_label=Label(text="✔️", fg=GREEN, bg=YELLOW)
+check_mark_label.grid(column=1,row=3)
+
 #adding text in picture
 canvas.create_text(100,130,text="00:00" , fill="white", font=(FONT_NAME,35,"bold"))
 canvas.grid(column=1,row=1)

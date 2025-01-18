@@ -14,6 +14,10 @@ LONG_BREAK_MIN = 20
 # ---------------------------- TIMER MECHANISM ------------------------------- # 
 
 # ---------------------------- COUNTDOWN MECHANISM ------------------------------- # 
+def count_down(count):
+    print(count)
+    if count>0:
+        windows.after(1000, count_down, count -1)
 
 # ---------------------------- UI SETUP ------------------------------- #
 
@@ -21,6 +25,7 @@ windows =Tk()
 windows.title("Pomodoro")
 windows.config(padx=100,pady=50,bg=YELLOW)
 
+count_down(5)
 #Timer Label
 Timer_label= Label(text="Timer", bg=YELLOW , fg=GREEN, font=(FONT_NAME,35,"bold"))
 Timer_label.grid(column=1,row=0)

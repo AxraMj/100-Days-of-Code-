@@ -8,3 +8,5 @@ arr2=array("i",[55,66,77,99])
 #insert 88 in 3rd possition
 arr2.insert(3,88)
 print(arr2)
+#space complexity will be 0(n)
+#beacuse we are talimg extra space here

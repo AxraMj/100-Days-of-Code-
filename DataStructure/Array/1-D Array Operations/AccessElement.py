@@ -10,4 +10,4 @@ def accessElement(array,index):
     return array[index]
 
 print(accessElement(arr1,10)) #Element not in array
-print(accessElement(arr1,1)) #Element not in array
+print(accessElement(arr1,1)) #20

@@ -9,7 +9,11 @@ def save():
 
     file_path="Day29/002 password-manager-start/data.txt"
     with open(file_path,"a") as data_file:
-        data_file.write(f"{website} | {email} | {password}")
+        data_file.write(f"{website} | {email} | {password} \n")
+        website_entry.delete(0,END)
+        password_entry.delete(0,END)
+
+
         
 
 

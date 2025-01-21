@@ -18,3 +18,5 @@ def fun(m):
     return v  # Return the largest value in the 2D list
 
 print(fun(data[0]))  # Call `fun` on the first 2D list in `data` and print the result
+
+#output 4

@@ -13,5 +13,6 @@
 # list=[10,20,30]
 # print(list[5])
 
-text="abc"
-print(text +5)
+#TypeError
+# text="abc"
+# print(text +5)

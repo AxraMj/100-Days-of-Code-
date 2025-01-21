@@ -12,6 +12,5 @@ for post in facebook_posts:
     try:
         total_likes=total_likes+post['likes']
     except KeyError:
-        pass
-
+        pass #code skip and continue running (so that it will exclude likes)
 print(total_likes)

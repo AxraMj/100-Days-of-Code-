@@ -10,6 +10,6 @@ def permuation(list1,list2):
     else:
         return False
     
-list1=[1,2,3]
-list2=[1,3,2]
+list1=['a','c','b']
+list2=['c','a','e']
 print(permuation(list1,list2))

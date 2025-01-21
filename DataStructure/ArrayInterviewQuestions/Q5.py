@@ -11,5 +11,5 @@ def permuation(list1,list2):
         return False
     
 list1=['a','c','b']
-list2=['c','a','e']
+list2=['c','a','b']
 print(permuation(list1,list2))

@@ -3,3 +3,5 @@ dic={'name': 'Alice', 'age': 25, 'city': 'New York'}
 new_dic={'location':'usa'}
 dic.update(new_dic)
 print(dic)
+
+# {'name': 'Alice', 'age': 25, 'city': 'New York', 'location': 'usa'}

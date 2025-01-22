@@ -1,8 +1,6 @@
-arr={}
-arr[1]=1
-arr['1'] = 2
-arr[1] += 1
-print(arr)
+my_dict = {}
+my_dict[1] = 1
+my_dict['1'] = 2
+my_dict[1.0] = 4
 
-for k in arr:
-    print(k)
+print(my_dict)

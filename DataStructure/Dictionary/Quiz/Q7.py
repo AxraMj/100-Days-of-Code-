@@ -12,4 +12,4 @@ print(len(crates[box]))
 # A. 1
 # B. 3
 # C. 4
-# D. Type Error
+# D. Type Error ✔️

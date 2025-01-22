@@ -9,3 +9,5 @@ dic={'name': 'Alice', 'age': 25, 'city': 'New York'}
 dic.setdefault('country', 'USA')
 
 print(dic)
+
+# {'name': 'Alice', 'age': 25, 'city': 'New York', 'country': 'USA'}

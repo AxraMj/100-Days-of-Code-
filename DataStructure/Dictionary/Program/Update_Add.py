@@ -9,3 +9,7 @@ print(dic)
 #add
 dic['location']='USA'
 print(dic)
+
+# {'name': 'Akshara', 'age': 25, 'city': 'New York', 'location': 'USA'}
+
+

@@ -6,3 +6,4 @@ print(dic)
 
 del dic
 print(dic)
+#name 'dic' is not defined. Did you mean: 'dir'?

@@ -3,4 +3,4 @@ print(t.count(10)) #2
 print(t.count(100)) #1
 
 print(t.index(30)) #2 
-print(len(t))
+print(len(t)) #13

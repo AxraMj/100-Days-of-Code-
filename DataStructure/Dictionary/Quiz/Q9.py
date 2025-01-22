@@ -4,6 +4,6 @@ rec = {"Name" : "Python", "Age":"20"}
 r = rec.copy()
 print(id(r) == id(rec))
 # A. True
-# B. False
+# B. False ✔️
 # C. 0
 # D. 1

@@ -23,19 +23,14 @@ class SLList:
                 self.tail.next = newNode
                 self.tail = newNode
             else:  # Insert at a specific location
-                current_node = self.head
-                index = 0
-                while index < location - 1 and current_node is not None:
-                    current_node = current_node.next
-                    index += 1
-                if current_node is None:  # Location is out of range
-                    print("Location is out of range")
-                else:
-                    newNode.next = current_node.next
-                    current_node.next = newNode
-                    if newNode.next is None:  # Update tail if inserted at the end
-                        self.tail = newNode
-
+                tempNode=self.head
+                index=0
+                while index < location -1:
+                    tempNode=tempNode.next
+                    index+=1
+                nextNode=tempNode.next
+                tempNode.next=newNode
+                newNode.next=nextNode
     # Traverse and print the elements of the list
     def Traverse(self):
         if self.head is None:

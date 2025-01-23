@@ -7,5 +7,5 @@ init_tuple_b = (3, 4)
 [print(sum(x)) for x in [init_tuple_a + init_tuple_b]]
 # A. Nothing gets printed.
 # B.  4
-# C. 10
+# C. 10 ✔️
 # D. TypeError: unsupported operand type

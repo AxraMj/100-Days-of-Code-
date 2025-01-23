@@ -5,7 +5,7 @@ l = [1, 2, 3]
 init_tuple = ('Python',) * (l.__len__() - l[::-1][0]) 
 
 print(init_tuple)
-# A. ()
+# A. () ✔️
 # B. (‘Python’)
 # C. (‘Python’, ‘Python’)
 # D. Runtime Exception.

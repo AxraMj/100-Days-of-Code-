@@ -7,4 +7,4 @@ print (init_tuple_a == init_tuple_b)
 # A. 0
 # B.  1
 # C. False
-# D. True
+# D. True ✔️

@@ -4,5 +4,5 @@ init_tuple = ((1, 2),) * 7
 print(len(init_tuple[3:8]))
 # A. Exception
 # B. 5
-# C. 4
+# C. 4 ✔️
 # D. None

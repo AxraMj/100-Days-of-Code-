@@ -6,7 +6,7 @@ print(init_tuple)
 # A. (1, 1, 1)
 # B. (2, 2, 2)
 # C. (2, 1, 1)
-# D. TypeError: ‘tuple’ object does not support item assignment
+# D. TypeError: ‘tuple’ object does not support item assignment ✔️
 
  
 

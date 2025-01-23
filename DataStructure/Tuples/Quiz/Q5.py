@@ -5,6 +5,6 @@ result = sum(n for _, n in init_tuple)
 
 print(result)
 # A. 3
-# B. 6
+# B. 6 ✔️
 # C. 9
 # D. Nothing gets printed.

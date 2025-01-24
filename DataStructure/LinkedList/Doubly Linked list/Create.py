@@ -9,16 +9,17 @@ class DoublyLL:
         self.head=None
         self.tail=None
 
-    def create(self,value):
-        newNode=Node(value)
-        if self.head is None:
-            self.head=newNode
-            self.tail=newNode
-            newNode.prev=None
-            newNode.next=None
-        else:
-            newNode.prev=self.head
-            self.head.next=newNode
+    # def create(self,value):
+    #     newNode=Node(value)
+    #     if self.head is None:
+    #         self.head=newNode
+    #         self.tail=newNode
+    #         newNode.prev=None
+    #         newNode.next=None
+    #     else:
+    #         newNode.prev=self.head
+    #         self.head.next=newNode
+    #         self.tail=newNode
 
 obj=DoublyLL()
 node1=Node(20)

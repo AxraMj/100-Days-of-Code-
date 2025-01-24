@@ -71,4 +71,4 @@ obj.insert(1,-1)
 obj.insert(11,2)
 obj.Traverse()
 
-obj.search(0)
+obj.search(30)

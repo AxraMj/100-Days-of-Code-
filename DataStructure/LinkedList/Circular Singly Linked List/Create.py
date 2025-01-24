@@ -7,7 +7,6 @@ class circularSLL:
         self.head=None
         self.tail=None
 
-
 obj=circularSLL()
 node1=Node(10)
 node2=Node(20)
@@ -22,6 +21,6 @@ node2.next=node3
 node3.next=node4
 node4.next=node1
 
- # Last node points back to the head.
- # Circular Linked List structure:
+# Last node points back to the head.
+# Circular Linked List structure:
 # Head -> [3] -> [5] -> [7] -> points back to Head (circular loop)

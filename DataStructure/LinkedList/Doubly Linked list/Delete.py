@@ -46,7 +46,26 @@ class DoublyLL:
                 newNode.prev=temp_node
                 newNode.next=nextnode
                 nextnode.prev=newNode
-
+    def delete(self,location):
+        if self.head is None:
+            print("Empty!!!")
+        else:
+            if location==0:
+                self.head=self.head.next
+                self.head.prev=None
+            elif location==-1:
+                node=self.tail.prev 
+                node.next=None
+                self.tail=node
+            else:
+                temp_node=self.head
+                index=0
+                while index <location -1:
+                    temp_node=temp_node.next
+                    index+=1
+                nextnode=temp_node.next.next
+                temp_node.next=nextnode
+                nextnode.prev=temp_node
 
     def traverse(self):
         if self.head is None:
@@ -56,16 +75,6 @@ class DoublyLL:
             while current_node is not None:
                 print(current_node.value)
                 current_node=current_node.next
-    def search(self,element):
-        if self.head is None:
-            print("Empty!!")
-        else:
-            current_node=self.head
-            while current_node is not None:
-                if current_node.value == element:
-                    return f"{element} is Present"
-                current_node=current_node.next
-            return f"{element} not fount"
 
 obj=DoublyLL()
 obj.create(10)
@@ -81,6 +90,18 @@ obj.insert(3,-1)
 obj.insert(11,4)
 obj.insert(12,2)
 obj.traverse()
-
-print(obj.search(20))
-        
+print()
+obj.delete(0)
+obj.delete(0)
+obj.delete(-1)
+obj.delete(2)
+obj.traverse()
+# 2
+# 1
+# 12
+# 10
+# 20
+# 11
+# 30
+# 40
+# 3

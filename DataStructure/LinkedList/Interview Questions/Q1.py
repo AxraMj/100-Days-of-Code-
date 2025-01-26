@@ -7,20 +7,17 @@ def remove(obj):
         return obj
     else:
         current_node = obj.head
-        temp_nodes = set()  # Set to store seen values
-        prev_node = None  # Keep track of the previous node
+        temp_nodes = set([current_node.value])  # Set to store seen values
 
         # Traverse the linked list
-        while current_node:
-            if current_node.value in temp_nodes:  # Duplicate found
-                prev_node.next = current_node.next  # Remove duplicate
+        while current_node.next:  # Stop before the last node
+            if current_node.next.value in temp_nodes:  # Duplicate found
+                current_node.next = current_node.next.next  # Skip the duplicate node
             else:
-                temp_nodes.add(current_node.value)  # Add value to set
-                prev_node = current_node  # Update previous node
-            current_node = current_node.next  # Move to the next node
+                temp_nodes.add(current_node.next.value)  # Add value to set
+                current_node = current_node.next  # Move to the next node
 
         return obj
-
 
 # Create and test the linked list
 obj = RemoveDuplictaeLL()

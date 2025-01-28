@@ -32,7 +32,7 @@ class TwoSum:
         for i in range(len(array)):
             value = target - array[i]  
             if value in seen:
-                return f"{value},{array[i]}" 
+                return [array.index(value), i] 
             seen.add(array[i])  
         
 obj=TwoSum()

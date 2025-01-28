@@ -4,7 +4,7 @@
 #else return false
 
 #brute force approach
-        # def function(array1,array2):
+        # def CheckCommonElements(array1,array2):
         #     for i in array1:
         #         for j in array2:
         #             if i==j:
@@ -16,7 +16,7 @@
         # print(function(array1,array2)) #time is O(n ^ 2)
 
 #better case
-def function(array1,array2):
+def CheckCommonElements(array1,array2):
     seen=set(array1)
     for i in array2:
         if i in seen:

@@ -1,9 +1,8 @@
 def function(a,b):
     print(f"Before swap:a={a},b={b}")
-
-    a=a+b #5
-    b=a-b #5-3=2
-    a=a-b #5-2=3
+    a=a+b 
+    b=a-b 
+    a=a-b 
     print(f"after swap a={a}, b={b} ")
 
 

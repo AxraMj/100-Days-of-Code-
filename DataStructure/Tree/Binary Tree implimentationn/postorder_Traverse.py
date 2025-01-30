@@ -40,6 +40,11 @@ class BinaryTree:
             print(root.value,end=" ")
             self.preorder_traverse(root.left)
             self.preorder_traverse(root.right)
+    def postorder_traverse(self,root):
+        if root is not None:
+            self.postorder_traverse(root.left)
+            self.postorder_traverse(root.right)
+            print(root.value,end=" ")
 
 # Testing the BinaryTree class
 obj = BinaryTree()
@@ -55,3 +60,7 @@ obj.inorder_traverse(obj.root)  # Expected Output: 3 6 10 15 20
 
 print("preorder Traversal: ")
 obj.preorder_traverse(obj.root)  # Expected Output: 3 6 10 15 20
+
+
+print("postorder Traversal: ")
+obj.postorder_traverse(obj.root)  # Expected Output: 3 6 10 15 20

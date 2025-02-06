@@ -1,0 +1,53 @@
+MERN STACK
+1. Introduction
+2. The MERN Stack -Theory
+3. Planning the App 
+4. ReactJs-A Refresher
+5. ReactJs Building The frontend
+6. Nodejs and ExpressJs A Refresher
+7. Nodejs and ExpressJs Building Our REST API 
+8. Working with Mongodb and Mongoose-Arefresher
+9. Connecting the backend to the Database- MongoDB and Mongoose
+10. Connecting the Reactjs frondend to the backend
+11. Adding file upload
+12. Adding Authentication
+13. Application Deployment
+14. Roundup and next step
+
+JAVASCRIPT
+1. JavaScript Fundamentals – Part 1
+2. JavaScript Fundamentals – Part 
+3. Developer Skills & Editor Setup
+4. HTML & CSS Crash Course
+5. JavaScript in the Browser: DOM Manipulation Fundamentals
+6. How JavaScript Works Behind the Scenes
+7. Data Structures, Modern Operators and Strings
+8. A Closer Look at Functions
+9. Working With Arrays
+10. Numbers, Dates, Intl and Timers
+11. Advanced DOM and Events
+12. Object Oriented Programming (OOP) With JavaScript
+13. Mapty App: OOP, Geolocation, External Libraries, and More!
+14. Asynchronous JavaScript: Promises, Async/Await and AJAX
+15. Modern JavaScript Development: Modules and Tooling
+16. Forkify App: Building a Modern Application
+17. Setting Up Git and Deployment
+
+TYPESCRIPT
+1. Getting started
+2. Typescript Basic and basic types
+3. The typescript compiler
+4. Next generation javascript and typescript
+5. Classes and interfaces
+6. Advanced Types
+7. Generics
+8. Decorators
+9. Practice time Lets built a Drag and drop Project
+10. Modules and namespace
+11. Using webpack with typescript
+12. thirdparty library and typescript
+13. Time to practice!"Lets build a select and share a place"App 
+    (incl.google maps)
+14. Reactjs and Typescript
+15. Nodejs + Express and typescript
+16. course Roundupd
